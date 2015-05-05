@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <id>ScriptCs.Json</id>
+    <version>0.1.0</version>
+    <authors>Jonathan Channon</authors>
+    <owners>VQComms</owners>
+    <licenseUrl>https://github.com/VQComms/ScriptCs.Json/blob/master/LICENSE</licenseUrl>
+    <projectUrl>https://github.com/VQComms/ScriptCs.Json</projectUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>A JSON Script Library</description>
+    <summary>A JSON Script Library</summary>
+    <tags>scriptcs,json</tags>
+    <dependencies>
+     <dependency id="ServiceStack.Text" version="3.9.71" />
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="JsonMain.csx" target="Content\scriptcs\JsonMain.csx" />
+  </files>
+</package>
